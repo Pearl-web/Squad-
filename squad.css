@@ -1,10 +1,13 @@
 /* Navbar styling*/
 
 .nav {
+  display: flex;
   justify-content: space-around;
   background-color: #CB904D;
   height:50px;
   box-shadow: 0px 1px 15px #999
+
+
 }
 
 li a {
@@ -31,5 +34,6 @@ h1  {
   color: #51A3A3;
   font-size:70px;
   position: relative;
-  top:50px;
+  top:40px;
+
 }
