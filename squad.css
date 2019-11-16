@@ -1,0 +1,35 @@
+/* Navbar styling*/
+
+.nav {
+  justify-content: space-around;
+  background-color: #CB904D;
+  height:50px;
+  box-shadow: 0px 1px 15px #999
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top:5px;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+li a:hover  {
+  color: #51A3A3
+}
+
+/*Body Styling*/
+
+
+h1  {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: #51A3A3;
+  font-size:70px;
+  position: relative;
+  top:50px;
+}
