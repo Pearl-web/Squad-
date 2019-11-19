@@ -1,39 +1,13 @@
-/* Navbar styling*/
+/* Header styling*/
 
-.nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: #EA8D1B;
-  height:50px;
-  box-shadow: 0px 1px 15px #999
-
-
+.header {
+  background-color: white;
+  height: 150px;
 }
 
-li a {
+img {
   display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  margin-top:5px;
-  font-family: 'Arial', sans-serif;
-
-
-}
-
-li a:hover  {
-  color: #51A3A3
-}
-
-/*Body Styling*/
-
-
-h1  {
-  font-family: 'Permanent Marker', cursive;
-  text-align: center;
-  color: #51A3A3;
-  font-size:70px;
-  position: relative;
-  top:40px;
-
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
