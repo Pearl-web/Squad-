@@ -11,3 +11,38 @@ img {
   max-height: 100%;
   max-width: 100%;
 }
+
+#dates  {
+  font-size: 13px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+
+/* topnavbar*/
+
+.topnavbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  overflow: hidden;
+}
+
+.topnavbar a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.topnavbar a:hover  {
+  font-weight:bold;
+}
+
+.active {
+  background-color: 	#E8E8E8;
+  border-radius: 20px;
+}
