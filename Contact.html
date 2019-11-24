@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -37,11 +37,79 @@
 
   </header>
 
-
-
 <body>
+  <!--Text instruction -->
+  <div>
+
+  <p><center><h2>Let's talk! </center></h2>
+  <p><center>If you're interested in getting in touch with us, we're happy to hear from you!</center></p>
+</div>
+
+<!-- Heavily modified Contact Form using code from w3 schools -->
+<style>
+body {font-family: 'Montserrat', sans-serif;}
+* {box-sizing: border-box;}
+
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: #FFA500;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #FFA500;
+    }
+
+    .container {
+      border-radius: 5px;
+      background-color: #E8E8E8;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <h3><center>Contact Form</center></h3>
+
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="full name" placeholder="Your name..">
+
+    <label for="fname">Email address</label>
+    <input type="text" id="email" name="emailaddress" placeholder="We promise to not send you junk!">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="What's on your mind..." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 
 </body>
 
+<!-- I know I'm meant to include jquery at one point?
+ adding JQuery using a CDN
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js
 
+Linking Javascript
+  <script src="js/scripts.js"></script> -->
+
+</body>
 </html>
