@@ -14,48 +14,65 @@
 
     <!-- Custom styles for our project -->
     <link href="squad.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
   </head>
+
+
+  <header>
+  <!--Logo,Dates,topnavbar-->
+
+  <div class="header">
+    <a href="index.html"><img src="Images/notting hill carnival logos-03-03.png" alt= "Notting Hill Carnival Logo"></a>
+  </div>
+
+  <h5 id="dates">30th-31st August 2020</h5>
+
+  <div class="topnavbar">
+    <a href="About.html">About</a>
+    <a href="Parades.html">Parades</a>
+    <a href="Stages.html">Stages</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="Contact.html">Contact</a>
+  </div>
+
+  </header>
 
   <body>
 
+    <p id="demo"></p>
 
-    <!-- Navigation -->
+<script>
+    // Set the date to carnival
+    var countDownDate = new Date("Aug 30, 2020 00:00:00").getTime();
 
-    <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">About</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Line-up</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Gallery</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
-  </li>
-</ul>
+    // Update the count down every 1 second
+    var x = setInterval(function() {
 
+      // Get today's date and time
+      var now = new Date().getTime();
 
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
 
-    <h1>Notting Hill Carnival</h1>
+      // Time calculations for months, days, hours, minutes and seconds
+      var months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+      // Output the result in an element with id="demo"
+      document.getElementById("demo").innerHTML = "Countdown to Carnival 2020:  " + months + " months, " + days + " days, " + hours + " hours, "
+      + minutes + " minutes and " + seconds + " seconds ";
 
+    }, 1000);
 
-
-
-
-
-
-
-
+</script>
 
 
+  <div>
+    <img src="Images/about image.png">
+  <div>
 
-
-
-
-  </body>
+</body>
 </html>

@@ -1,35 +1,48 @@
-/* Navbar styling*/
+/* Header and Logo*/
 
-.nav {
-  justify-content: space-around;
-  background-color: #CB904D;
-  height:50px;
-  box-shadow: 0px 1px 15px #999
+.header {
+  background-color: white;
+  height: 150px;
 }
 
-li a {
+img {
   display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  margin-top:5px;
-  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
 
+#dates  {
+  font-size: 13px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 
 }
 
-li a:hover  {
-  color: #51A3A3
+/* topnavbar*/
+
+.topnavbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  overflow: hidden;
 }
 
-/*Body Styling*/
+.topnavbar a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+  }
 
+.topnavbar a:hover  {
+  font-weight:bold;
+}
 
-h1  {
-  font-family: 'Permanent Marker', cursive;
-  text-align: center;
-  color: #51A3A3;
-  font-size:70px;
-  position: relative;
-  top:50px;
+.active {
+  background-color: 	#E8E8E8;
+  border-radius: 20px;
 }
