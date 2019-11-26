@@ -30,3 +30,31 @@ img {
     font-family: 'Montserrat';
     font-weight: 300;
   }
+
+/*socialmediabuttons*/
+.socialmediabuttons {
+  background-color: black;
+  text-align: center;
+  padding: 70px;
+}
+
+.fa  {
+  font-size: 25px;
+  width: 50px;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
