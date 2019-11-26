@@ -2,7 +2,7 @@
 
 .header {
   background-color: white;
-  height: 150px;
+  height: 262px;
 }
 
 img {
@@ -10,14 +10,6 @@ img {
   margin: auto;
   max-height: 100%;
   max-width: 100%;
-}
-
-#dates  {
-  font-size: 13px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-
 }
 
 /* topnavbar*/
@@ -35,14 +27,6 @@ img {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
+    font-weight: 300;
   }
-
-.topnavbar a:hover  {
-  font-weight:bold;
-}
-
-.active {
-  background-color: 	#E8E8E8;
-  border-radius: 20px;
-}
