@@ -31,6 +31,13 @@ img {
     font-weight: 300;
   }
 
+
+
+/*homepageimages*/
+.homepageimages {
+  max-width: 100%;
+}
+
 /*socialmediabuttons*/
 .socialmediabuttons {
   background-color: black;
