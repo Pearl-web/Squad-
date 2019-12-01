@@ -64,3 +64,49 @@ img {
     text-align: center;
     font-weight: 300;
   }
+
+
+  /*socialmediabuttons*/
+  .socialmediabuttons {
+    background-color: black;
+    text-align: center;
+    padding: 70px;
+    display: block;
+    width: 100%;
+    margin-top:50px;
+
+  }
+
+  .fa  {
+    font-size: 25px;
+    width: 50px;
+  }
+
+  .fa-facebook {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+  }
+
+  .fa-youtube {
+    color: white;
+  }
+
+  .fa-twitter {
+    color: white;
+  }
+
+
+
+  /*map*/
+
+  #map {
+    display:block;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    height: 500px;
+  }
