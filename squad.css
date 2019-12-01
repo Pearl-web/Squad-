@@ -30,3 +30,37 @@ img {
     font-family: 'Montserrat';
     font-weight: 300;
   }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .countdown {
+    height: 250px;
+    max-width: 100%;
+    text-align: center;
+    padding: 60px;
+    color: #FFF;
+    background-color: #B73C3C
+  }
+
+  li {
+    display: inline-block;
+    font-size: 1.0em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: 200;
+  }
+
+  li span {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 3.0rem;
+    text-align: center;
+    font-weight: 300;
+  }
