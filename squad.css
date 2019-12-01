@@ -74,22 +74,35 @@ img {
   }
 
   .fa  {
-    font-size: 50px;
-    width: 100px;
+    font-size: 25px;
+    width: 50px;
   }
 
   .fa-facebook {
-    color: black;
+    color: white;
   }
 
   .fa-instagram {
-    color: black;
+    color: white;
   }
 
-  .fa-snapchat-ghost {
-    color: black;
+  .fa-youtube {
+    color: white;
   }
 
   .fa-twitter {
-    color: black;
+    color: white;
+  }
+
+
+
+  /*map*/
+
+  #map {
+    display:block;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    height: 500px;
   }
