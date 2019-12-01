@@ -69,12 +69,13 @@ img {
     max-width: 100%;
     background-color: black;
     text-align: center;
-    padding: 100px;
+    padding: 90px;
+    margin-top: 10px;
 
   }
 
   .fa  {
-    font-size: 25px;
+    font-size: 30px;
     width: 50px;
   }
 
@@ -105,4 +106,15 @@ img {
     margin-bottom: 50px;
     width: 50%;
     height: 500px;
+  }
+
+  .homepageimagenav {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+
+
   }
