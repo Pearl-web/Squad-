@@ -35,6 +35,8 @@ img {
 
 /*homepageimages*/
 .homepageimages {
+  display: block;
+  margin: auto;
   max-width: 100%;
 }
 
@@ -43,6 +45,10 @@ img {
   background-color: black;
   text-align: center;
   padding: 70px;
+  display: block;
+  width: 100%;
+  margin-top:50px;
+
 }
 
 .fa  {
@@ -58,10 +64,31 @@ img {
   color: white;
 }
 
-.fa-snapchat-ghost {
+.fa-youtube {
   color: white;
 }
 
 .fa-twitter {
   color: white;
+}
+
+
+
+/*map*/
+
+#map {
+  display:block;
+  margin:auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  height: 500px;
+}
+
+/*Aboutpageintropara*/
+
+.intropara  {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
 }
