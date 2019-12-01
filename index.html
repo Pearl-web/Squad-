@@ -16,6 +16,7 @@
 
     <!-- Custom styles for our project -->
     <link href="squad.css" rel="stylesheet">
+
   </head>
 
 
@@ -41,60 +42,44 @@
 
     <p id="demo"></p>
 
-<script>
-    // Set the date to carnival
-    var countDownDate = new Date("Aug 30, 2020 00:00:00").getTime();
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600" rel="stylesheet">
 
-    // Update the count down every 1 second
-    var x = setInterval(function() {
+    <div class="countdown">
+      <ul>
+        <li><span id="days"></span>Days</li>
+        <li><span id="hours"></span>Hours</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li><span id="seconds"></span>Seconds</li>
+      </ul>
+    </div>
 
-      // Get today's date and time
-      var now = new Date().getTime();
+  <script src="./countdown script.js"></script>
 
-      // Find the distance between now and the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for months, days, hours, minutes and seconds
-      var months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Output the result in an element with id="demo"
-      document.getElementById("demo").innerHTML = "Countdown to Carnival (30th - 31st August 2020):  " + months + " months, " + days + " days, " + hours + " hours, "
-      + minutes + " minutes and " + seconds + " seconds ";
-
-    }, 1000);
-
-</script>
-
-  <div class="homepageimages">
+  <div class="about">
+    <a href="About.html"><img src="Images/about.png" alt= "About page image" style="margin:10px 0px"></a>
   <div>
-    <a href="About.html"><img src="Images/about.png" alt= "About page image"></a>
-  </div>
 
-  <div>
-    <a href="Parades.html"><img src="Images/parades.png" alt= "Parades page image"></a>
-  </div>
-
-  <div>
-    <a href="Stages.html"><img src="Images/stages.png" alt= "Stages page image"></a>
-  </div>
-
+  <div class="parades">
+    <a href="Parades.html"><img src="Images/parades.png" alt= "Parades page image" style="margin:10px 0px"></a>
   <div>
     <a href="Gallery.html"><img src="Images/gallery.png" alt= "Gallery page image"></a>
   </div>
-  </div>
 
-  <div class="socialmediabuttons">
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
-    <a href="#" class="fa fa-instagram"></a>
-    <a href="#" class="fa fa-snapchat-ghost"></a>
-  </div>
+    <div class="stages">
+      <a href="Stages.html"><img src="Images/stages.png" alt= "Stages page image" style="margin:10px 0px"></a>
+    <div>
 
-
+      <div class="gallery">
+        <a href="Gallery.html"><img src="Images/gallery.png" alt= "Gallery page image" style="margin:10px 0px"></a>
+      <div>
 
 </body>
+
+<div class="socialmediabuttons">
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-snapchat-ghost"></a>
+</div>
+
 </html>

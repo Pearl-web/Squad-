@@ -31,42 +31,36 @@ img {
     font-weight: 300;
   }
 
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
+  .countdown {
+    height: 250px;
+    max-width: 100%;
+    text-align: center;
+    padding: 60px;
+    color: #FFF;
+    background-color: #B73C3C
+  }
 
-/*homepageimages*/
-.homepageimages {
-  max-width: 100%;
-}
+  li {
+    display: inline-block;
+    font-size: 1.0em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: 200;
+  }
 
-/*socialmediabuttons*/
-.socialmediabuttons {
-  background-color: black;
-  text-align: center;
-  padding: 70px;
-}
-
-.fa  {
-  font-size: 25px;
-  width: 50px;
-}
-
-.fa-facebook {
-  color: white;
-}
-
-.fa-instagram {
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  color: white;
-}
-
-.fa-twitter {
-  color: white;
-}
-
-.firstparagraph {
-  text-align: center;
-  padding: 70px;
-}
+  li span {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 3.0rem;
+    text-align: center;
+    font-weight: 300;
+  }
