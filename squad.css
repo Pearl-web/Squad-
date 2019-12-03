@@ -71,7 +71,6 @@ img {
     text-align: center;
     padding: 90px;
     margin-top: 10px;
-
   }
 
   .fa  {
@@ -147,6 +146,12 @@ img {
   font-family: 'Montserrat';
   font-size: 17px;
   font-weight: 300;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  }
+
+  .container {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 300;
   }
