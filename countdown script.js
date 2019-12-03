@@ -1,9 +1,10 @@
-const second = 1000,
+// countdown code from current date till Notting Hill Carnival
+ const second = 1000,
       minute = second * 60,
       hour = minute * 60,
       day = hour * 24;
 
-let countDown = new Date('Aug 30, 2020 00:00:00').getTime(),
+ let countDown = new Date('Aug 30, 2020 00:00:00').getTime(),
     x = setInterval(function() {
 
       let now = new Date().getTime(),
