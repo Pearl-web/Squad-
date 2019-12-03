@@ -74,27 +74,25 @@ img {
   }
 
   .fa  {
-    font-size: 25px;
-    width: 50px;
+    font-size: 50px;
+    width: 100px;
   }
 
   .fa-facebook {
-    color: white;
+    color: black;
   }
 
   .fa-instagram {
-    color: white;
+    color: black;
   }
 
   .fa-youtube {
-    color: white;
+    color: black;
   }
 
   .fa-twitter {
-    color: white;
+    color: black;
   }
-
-
 
   /*map*/
 
