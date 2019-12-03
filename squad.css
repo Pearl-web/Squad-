@@ -125,3 +125,20 @@ img {
     font-weight: 300;
     margin-left: 40px;
     margin-right: 40px;
+  }
+
+  .stages {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+
+.contact {
+  font-family: 'Montserrat';
+  font-size: 17px;
+  font-weight: 300;
+  margin-left: 40px;
+  margin-right: 40px;
+}
